@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #product-list {
+      width: 400px;
+      margin: 20px;
+    }
+    .category {
+      margin-top: 10px;
+    }
+    .product {
+      margin-left: 20px;
+    }
+    .out-of-stock {
+      color: red;
+    }
+  </style>
+  <title>Product List</title>
+</head>
+<body>
+
+<div id="product-list">
+  <h2>Product List</h2>
+  <div>
+    <label for="search-box">Search:</label>
+    <input type="text" id="search-box">
+  </div>
+  <div>
+    <input type="checkbox" id="stocked-filter">
+    <label for="stocked-filter">Show only stocked items</label>
+  </div>
+  <div id="categories"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
